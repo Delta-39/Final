@@ -1,0 +1,39 @@
+/*FOOTER*/
+footer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $crema;
+    height: 130px;
+    .redes{
+        padding: 10px;
+        display: flex;
+        gap: 1em;
+        a{
+            color:white;
+            font-size: 30px;
+            transition: .3s;
+        }
+    }
+    .links{
+        a{
+            text-decoration: none;
+            color: white;
+            padding-right: 10px;
+            transition: .3s;       
+        }
+    }
+    h3{
+        color: white;
+    }
+}
+.redes a:hover{
+    color: black;
+}
+
+.links a:hover{
+    color: black;
+}
+/*FOOTER*/

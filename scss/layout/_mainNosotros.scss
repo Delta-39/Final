@@ -1,0 +1,71 @@
+/*MAIN NOSOTROS*/
+.contenidoNosotros{
+    display: flex;
+    padding: 20px;
+    .textoNosotros{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-right: 10px;
+        h2{
+            color: $amarillo;
+            font-weight: 700;
+            padding: 5px;
+        }
+        p{
+            font-weight: 500;
+            text-align: justify;
+            color: $marron;
+            font-size: 22px;
+        }
+        span{
+            text-align: justify;
+            color: $marron;
+            font-weight: 500;
+            font-size: 22px;
+            padding-bottom: 20px;
+        }
+        button{
+            border-radius: 25px;
+            padding: 10px;
+            background-color: white;
+            color: $marron;
+            border-color: $marron;
+            transition: .3s;
+        }
+        .redesNosotros{
+            padding-top: 20px;
+            a{
+                font-size: 30px;
+                margin-right: 10px;
+                color: black;
+            }
+        }
+
+    }
+}
+
+.contenidoNosotros .textoNosotros button:hover{
+    background-color: $amarillo;
+}
+
+.contenidoNosotros .textoNosotros .redesNosotros a:hover{
+    color: $marron;
+}
+
+@media screen and (max-width: 700px) {
+    .contenidoNosotros{
+        flex-direction: column;
+        .imagenNosotros{
+            display: flex;
+            align-items: center;
+            img{
+                width: 100%;
+                height: 90%;
+            }
+        }
+    }
+    
+}
+/*MAIN NOSOTROS*/
